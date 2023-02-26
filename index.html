@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>H website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <nav
+    class="relative   flex  flex-nowrap items-center justify-between bg-neutral-100 py-4 text-neutral-500 shadow-lg hover:text-neutral-700 focus:text-neutral-700 lg:flex-wrap lg:justify-start"
+    data-te-navbar-ref>
+    <div class="flex w-full flex-wrap items-center justify-between px-6">
+      <button
+        class="block border-0 bg-transparent py-2 px-2.5 text-neutral-500 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 lg:hidden"
+        type="button" data-te-collapse-init data-te-target="#navbarSupportedContent3"
+        aria-controls="navbarSupportedContent3" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="[&>svg]:w-7">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-7 w-7">
+            <path fill-rule="evenodd"
+              d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+              clip-rule="evenodd" />
+          </svg>
+        </span>
+      </button>
+      <div class="!visible hidden flex-grow bg-white-700 w-full basis-[100%] items-center lg:!flex lg:basis-auto "
+        id="navbarSupportedContent3" data-te-collapse-item>
+        <a class="text-xl text-black  ml-50%" href="#"><img class="ml-48" src="./hau_gitschberge_horizontal 1.png"
+            alt=""></a>
+        <!-- Left links -->
+        <ul class="list-style-none mr-auto flex flex-col pl-0 lg:flex-row ml-48" data-te-navbar-nav-ref>
+          <li class="lg:px-5" data-te-nav-item-ref>
+            <a class="active disabled:text-black/30 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-500"
+              aria-current="page" href="#" data-te-nav-link-ref>HOME</a>
+          </li>
+          <li class="lg:px-2" data-te-nav-item-ref>
+            <a class="p-0 text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+              href="#" data-te-nav-link-ref>BLOG </a>
+              
+          </li>
+          <li class="lg:px-2" data-te-nav-item-ref>
+            <a class="p-0 text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+              href="#" data-te-nav-link-ref>FEATURES</a>
+          </li>
+          <li class="lg:px-2" data-te-nav-item-ref>
+            <a class="p-0 text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+              href="#" data-te-nav-link-ref>CATEGORIES</a>
+          </li>
+          <li class="lg:px-2" data-te-nav-item-ref>
+            <a class="p-0 text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+              href="#" data-te-nav-link-ref>ABOUT</a>
+          </li>
+          <li class="lg:px-2" data-te-nav-item-ref>
+            <a class="p-0 text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+              href="#" data-te-nav-link-ref>CONTACT</a>
+          </li>
+
+          <li class="lg:px-2" data-te-nav-item-ref>
+            <a class="p-0 text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+              href="#" data-te-nav-link-ref>SHOP</a>
+          </li>
+          <li class="lg:px-2" data-te-nav-item-ref>
+            <a class="p-0 text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+              href="#" data-te-nav-link-ref>PORTFOLIO</a>
+          </li>
+
+        </ul>
+        <div class="flex justify-center">
+          <div>
+            <input
+              class="mt-[0.3rem] mr-5 h-3.5 w-8 appearance-none rounded-[0.4375rem] bg-[rgba(0,0,0,0.25)] outline-none before:pointer-events-none before:absolute before:h-3.5 before:w-3.5 before:rounded-full before:bg-transparent before:content-[''] after:absolute after:z-[2] after:-mt-[0.1875rem] after:h-5 after:w-5 after:rounded-full after:border-none after:bg-white after:shadow-[0_0px_3px_0_rgb(0_0_0_/_7%),_0_2px_2px_0_rgb(0_0_0_/_4%)] after:transition-[background-color_0.2s,transform_0.2s] after:content-[''] checked:bg-primary checked:after:absolute checked:after:z-[2] checked:after:-mt-[3px] checked:after:ml-[1.0625rem] checked:after:h-5 checked:after:w-5 checked:after:rounded-full checked:after:border-none checked:after:bg-primary checked:after:shadow-[0_3px_1px_-2px_rgba(0,0,0,0.2),_0_2px_2px_0_rgba(0,0,0,0.14),_0_1px_5px_0_rgba(0,0,0,0.12)] checked:after:transition-[background-color_0.2s,transform_0.2s] checked:after:content-[''] hover:cursor-pointer focus:before:scale-100 focus:before:opacity-[0.12] focus:before:shadow-[3px_-1px_0px_13px_rgba(0,0,0,0.6)] focus:before:transition-[box-shadow_0.2s,transform_0.2s] focus:after:absolute focus:after:z-[1] focus:after:block focus:after:h-5 focus:after:w-5 focus:after:rounded-full focus:after:content-[''] checked:focus:border-primary checked:focus:bg-primary checked:focus:before:ml-[1.0625rem] checked:focus:before:scale-100 checked:focus:before:shadow-[3px_-1px_0px_13px_#3b71ca] checked:focus:before:transition-[box-shadow_0.2s,transform_0.2s]"
+              type="checkbox" role="switch" id="flexSwitchCheckDefault" />
+            <label class="inline-block pl-[0.15rem] hover:cursor-pointer" for="flexSwitchCheckDefault"></label>
+          </div>
+        </div>
+        <!-- Left links -->
+      </div>
+      <!-- Collapsible wrapper -->
+    </div>
+  </nav>
+  <!----------------------##################### main part started ######################--------------------------->
+  <div class="con relative">
+    <div class="bg-[#E7F2ED]  flex gap-48">
+      <div class=" ml-52 mt-28">
+        <img class="h-96 w-80" src="./Rectangle 65.png" alt="">
+      </div>
+      <div class=" mt-16">
+        <img class="h-96 w-80" src="./Rectangle 66.png" alt="">
+        <p class="text-center text-[20px] mt-12">hey there</p>
+        <p class="text-center text-[40px] mt-2">i'm haus</p>
+      </div>
+      <div class=" mt-28">
+        <img class="h-96 w-80 " src="./Rectangle 67.png" alt="">
+
+      </div>
+
+
+    </div>
+    <div class="  w-full bg-[#E7F2ED] ">
+      <p class="text-justify uppercase text-sm mx-40">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, odio dolores
+        architecto veniam neque quasi nobis pariatur totam inventore dignissimos laboriosam reprehenderit necessitatibus
+        quas doloribus. Labore quos neque sapiente voluptatum, fugit natus rem, facilis iste doloribus a est vero
+        voluptates molestiae amet tempora. Omnis dolor iusto praesentium dignissimos dolorum doloribus voluptatum quas
+        tempore, dicta ea quae culpa quo nesciunt. Nemo?</p>
+
+     <div class="text-center bg-[#E7F2ED] mt-10 pb-10">
+      <p class="  uppercase border-2 px-7 py-2 border-[#D0D0A7] inline-block">read the whole story</p>
+     </div>
+    </div>
+
+
+  </div>
+  <div id="row2 relative">
+    <div class="bg-[#F2F2E6] border-t-2 border-[#D0D0A7]">
+      <div class="w-full flex py-7">
+        <div class=" px-40   border-r-2 border-[#D0D0A7]">
+          <img class="   my-32 pr-10" src="./Rectangle 65 (1).png" alt="">
+
+        </div>
+        <div class="float-right ">
+          <p class="mt-16 mx-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi labore rerum odio expedita, vero distinctio
+            eveniet qui eius officia </p>
+          <p class="pt-10 mx-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis consectetur esse et ut cupiditate
+            repellat consequatur nemo. Reiciendis amet labore perspiciatis consequatur incidunt maxime ex. Culpa omnis,
+            magni quo impedit temporibus eaque eos at id ducimus rem esse voluptatum adipisci quos quaerat cupiditate
+            quis atque dolor? Omnis hic ad quae.</p>
+
+          <p class="border-2 mt-10 mx-20 w-48 px-10 py-2 text-center  border-[#D0D0A7] inline-block">GET STARTED </p>
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="container relative my-10" id="row4">
+    <div class="flex flex-row mx-48">
+      <div class="flex flex-col gap-5 grid-auto-columns px-10">
+        <div class="relative">
+          <img class="w-80 h-80 relative" src="./20 22.png" alt="...">
+          <div class="bg-white p-5 absolute top-24 left-9 ">architecture</div>
+        </div>
+        <div class="relative">
+          <img class="w-72 h-80" src="./21 1.png" alt="...">
+          <div class="bg-white p-5 absolute top-24 left-9">interior</div>
+        </div>
+
+
+
+      </div>
+      <div class="flex flex-col py-56 pr-10 text-center w-1/3">
+        <p class="my-5">THE PORTFOLIO.</p>
+        <div class="text-center uppercase">
+          <p>view</p>
+        <p>recent</p>
+        <p>work</p>
+        </div>
+        <span class="text-center border-2 border-[#04282D] my-5 py-2">EXPLORE</span>
+      </div>
+      <div class="flex flex-col w-1/3 gap-5">
+        <div class="relative">
+          <img class="w-96 h-80" src="./22 1.png" alt="...">
+          <div class="bg-white p-5  absolute top-24 left-9">animal</div>
+        </div>
+
+        <div class="relative">
+          <img class="w-96 h-80" src="./7 1.png" alt="">
+          <div class="bg-white p-5 absolute top-24 left-9">Photography</div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+  </div>
+
+
+  <div id="row5 ">
+    <div class="flex  bg-[#E7F2ED]">
+      
+      <div class="flex my-28 ml-36 flex-row w-1/2">
+        
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam veritatis itaque tenetur quaerat distinctio
+          aut facilis illo debitis doloremque! Suscipit numquam nobis quod sit quasi aut voluptatibus quo est assumenda?
+        </p>
+
+      </div>
+      <div class="">
+        <div class="flex flex-row gap-5">
+          <div class="flex flex-col"><img src="./23.png" alt=""></div>
+          <div class="flex flex-col"><img src="./24.png" alt=""></div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <!----------------------##################### row6 started ########################--------------->
+
+  <div id="row6 ">
+    <section class="text-neutral-700 dark:text-neutral-300">
+
+
+      <div class="grid gap-6 text-center mt-10 md:grid-cols-3">
+        <div>
+          <div class="block rounded-lg bg-white shadow-lg dark:bg-neutral-700 dark:shadow-black/30">
+            <div class="h-28 overflow-hidden rounded-t-lg bg-[#9d789b]"></div>
+            <div
+              class="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
+              <img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" />
+            </div>
+            <div class="p-6">
+              <h4 class="mb-4 text-2xl font-semibold">Maria Smantha</h4>
+              <hr />
+              <p class="mt-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block h-7 w-7 pr-2"
+                  viewBox="0 0 24 24">
+                  <path
+                    d="M13 14.725c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275zm-13 0c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275z" />
+                </svg>
+                Lorem ipsum dolor sit amet eos adipisci, consectetur
+                adipisicing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="block rounded-lg bg-white shadow-lg dark:bg-neutral-700 dark:shadow-black/30">
+            <div class="h-28 overflow-hidden rounded-t-lg bg-[#7a81a8]"></div>
+            <div
+              class="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
+              <img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp" />
+            </div>
+            <div class="p-6">
+              <h4 class="mb-4 text-2xl font-semibold">Lisa Cudrow</h4>
+              <hr />
+              <p class="mt-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block h-7 w-7 pr-2"
+                  viewBox="0 0 24 24">
+                  <path
+                    d="M13 14.725c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275zm-13 0c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275z" />
+                </svg>
+                Neque cupiditate assumenda in maiores repudi mollitia
+                architecto.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="block rounded-lg bg-white shadow-lg dark:bg-neutral-700 dark:shadow-black/30">
+            <div class="h-28 overflow-hidden rounded-t-lg bg-[#6d5b98]"></div>
+            <div
+              class="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
+              <img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp" />
+            </div>
+            <div class="p-6">
+              <h4 class="mb-4 text-2xl font-semibold">John Smith</h4>
+              <hr />
+              <p class="mt-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block h-7 w-7 pr-2"
+                  viewBox="0 0 24 24">
+                  <path
+                    d="M13 14.725c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275zm-13 0c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275z" />
+                </svg>
+                Delectus impedit saepe officiis ab aliquam repellat rem unde
+                ducimus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <!----------------------- row 7 slaider ------------------------->
+  <div id="row7">
+    <div id="carouselExampleControls" class="relative bg-[#E7F2ED]" data-te-carousel-init data-te-carousel-slide>
+      <div class="relative w-full my-32 mx-28   overflow-hidden after:clear-both after:block after:content-['']">
+        <div
+          class="relative w-1/2 float-left -mr-[100%]  transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          data-te-carousel-item data-te-carousel-active>
+          <img src="./3.png" class="block w-full" alt="Wild Landscape" />
+        </div>
+        <div
+          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          data-te-carousel-item>
+          <img src="./26.png" class="block w-full" alt="Camera" />
+        </div>
+        <div
+          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          data-te-carousel-item>
+          <img src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp" class="block w-full" alt="Exotic Fruits" />
+        </div>
+      </div>
+      <button
+        class="absolute top-0 bottom-0 left-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+        type="button" data-te-target="#carouselExampleControls" data-te-slide="prev">
+        <span class="inline-block h-8 w-8">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="h-6 w-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+          </svg>
+        </span>
+        <span
+          class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Previous</span>
+      </button>
+      <button
+        class="absolute top-0 bottom-0 right-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+        type="button" data-te-target="#carouselExampleControls" data-te-slide="next">
+        <span class="inline-block h-8 w-8">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="h-6 w-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+          </svg>
+        </span>
+        <span
+          class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Next</span>
+      </button>
+    </div>
+
+  </div>
+
+  <!----------------------############### row8 para ##################----------------->
+  <div id="row8">
+    <div class="mx-32">
+      <span class="m-32 border-b-4 border-cyan-500">Lifestyle</span>
+      <span class="m-32 border-b-4 border-lime-500">Travel</span>
+      <span class="m-32 border-b-4 border-rose-500 ">Photos</span>
+      <p class="my-12 border-2 border-cyan-600 p-12">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod
+        fugiat esse pariatur fuga tempore, vel neque itaque, fugit eligendi eos reiciendis amet eum! Dolor eos atque
+        velit consectetur, amet delectus nisi quisquam illum rem vitae ab, voluptate numquam harum quibusdam illo optio,
+        est laborum! Enim quia fuga ipsa ratione hic sequi! Facere minima sit quia quasi est esse error eligendi!</p>
+    </div>
+
+  </div>
+  <!----------------------########################## row 9 ######################-------------------->
+  <div id="row9 ">
+    <div class="bg-[#E7F2ED]">
+      <div class="text-center py-10">
+        <p>lets collaborate together</p>
+      </div>
+      <div class="flex flex-row mx-16 gap-14">
+        <div class="flex flex-col text-justify">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi tempora consequatur reiciendis corporis
+            architecto impedit minus! Nostrum, fugit cumque? Quasi, soluta excepturi! Minima quam repudiandae earum
+            nostrum ducimus cupiditate, unde ab odio ratione et doloremque dolor rerum excepturi! Animi similique numquam
+            consequatur tempora doloribus molestias placeat optio natus excepturi velit.</p>
+        </div>
+  
+        <div class="flex flex-col text-justify">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi tempora consequatur reiciendis corporis
+            architecto impedit minus! Nostrum, fugit cumque? Quasi, soluta excepturi! Minima quam repudiandae earum
+            nostrum ducimus cupiditate, unde ab odio ratione et doloremque dolor rerum excepturi! Animi similique numquam
+            consequatur tempora doloribus molestias placeat optio natus excepturi velit.</p>
+        </div>
+  
+        <div class="flex flex-col text-justify">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi tempora consequatur reiciendis corporis
+            architecto impedit minus! Nostrum, fugit cumque? Quasi, soluta excepturi! Minima quam repudiandae earum
+            nostrum ducimus cupiditate, unde ab odio ratione et doloremque dolor rerum excepturi! Animi similique numquam
+            consequatur tempora doloribus molestias placeat optio natus excepturi velit.</p>
+        </div>
+  
+        <div class="flex flex-col text-justify">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi tempora consequatur reiciendis corporis
+            architecto impedit minus! Nostrum, fugit cumque? Quasi, soluta excepturi! Minima quam repudiandae earum
+            nostrum ducimus cupiditate, unde ab odio ratione et doloremque dolor rerum excepturi! Animi similique numquam
+            consequatur tempora doloribus molestias placeat optio natus excepturi velit.</p>
+        </div>
+  
+  
+  
+  
+  
+      </div>
+    </div>
+
+
+  </div>
+
+
+  <!----------------------############### resent post ######################---->
+
+  <div id="row10 ">
+    <div class="my-12 text-center"><span>Resent Post</span></div>
+    <div class="flex justify-center">
+      <div class="block max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
+        <a href="#!">
+          <img class="rounded-t-lg" src="https://tecdn.b-cdn.net/img/new/standard/nature/184.jpg" alt="" />
+        </a>
+        <div class="p-6">
+          <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+            Card title
+          </h5>
+          <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <button type="button"
+            class="inline-block rounded bg-primary px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)]"
+            data-te-ripple-init data-te-ripple-color="light">
+            Button
+          </button>
+        </div>
+
+
+      </div>
+
+    </div>
+    <div class="text-center">
+      <span>VIWE MORE POSTS</span>
+    </div>
+
+  </div>
+
+
+  <!-------------------------##################- CONTECT US ############################ ---->
+  <div id="row11" class="bg-[#E7F2ED]">
+    <div class="text-center">
+      <span>Contact Us</span>
+    </div>
+    <div class="flex flex-row">
+      <div class="flex flex-col w-1/2">
+        <div class="block max-w-md rounded-lg bg-white p-6 shadow-lg dark:bg-neutral-700">
+          <form>
+            <div class="relative mb-6" data-te-input-wrapper-init>
+              <input type="text"
+                class="peer block min-h-[auto] w-full rounded border-0 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
+                id="exampleInput7" placeholder="Name" />
+              <label for="exampleInput7"
+                class="pointer-events-none absolute top-0 left-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-neutral-200">Name
+              </label>
+            </div>
+            <div class="relative mb-6" data-te-input-wrapper-init>
+              <input type="email"
+                class="peer block min-h-[auto] w-full rounded border-0 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
+                id="exampleInput8" placeholder="Email address" />
+              <label for="exampleInput8"
+                class="pointer-events-none absolute top-0 left-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-neutral-200">Email
+                address
+              </label>
+            </div>
+            <div class="relative mb-6" data-te-input-wrapper-init>
+              <textarea
+                class="peer block min-h-[auto] w-full rounded border-0 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
+                id="exampleFormControlTextarea13" rows="3" placeholder="Message"></textarea>
+              <label for="exampleFormControlTextarea13"
+                class="pointer-events-none absolute top-0 left-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-neutral-200">Message
+              </label>
+            </div>
+            <div class="mb-6 flex min-h-[1.5rem] items-center justify-center pl-[1.5rem]">
+              <input
+                class="mr-[6px] h-[1.125rem] w-[1.125rem] appearance-none rounded-[0.25rem] border-[0.125rem] border-solid border-[rgba(0,0,0,0.25)] bg-white outline-none before:pointer-events-none before:absolute before:h-[0.875rem] before:w-[0.875rem] before:scale-0 before:rounded-full before:bg-transparent before:opacity-0 before:shadow-[0px_0px_0px_13px_transparent] before:content-[''] checked:border-primary checked:bg-primary checked:before:opacity-[0.16] checked:after:absolute checked:after:ml-[0.25rem] checked:after:-mt-px checked:after:block checked:after:h-[0.8125rem] checked:after:w-[0.375rem] checked:after:rotate-45 checked:after:border-[0.125rem] checked:after:border-t-0 checked:after:border-l-0 checked:after:border-solid checked:after:border-white checked:after:bg-transparent checked:after:content-[''] hover:cursor-pointer hover:before:opacity-[0.04] hover:before:shadow-[0px_0px_0px_13px_rgba(0,0,0,0.6)] focus:shadow-none focus:transition-[border-color_0.2s] focus:before:scale-100 focus:before:opacity-[0.12] focus:before:shadow-[0px_0px_0px_13px_rgba(0,0,0,0.6)] focus:before:transition-[box-shadow_0.2s,transform_0.2s] focus:after:absolute focus:after:z-[1] focus:after:block focus:after:h-[0.875rem] focus:after:w-[0.875rem] focus:after:rounded-[0.125rem] focus:after:bg-white focus:after:content-[''] checked:focus:border-primary checked:focus:bg-primary checked:focus:before:scale-100 checked:focus:before:shadow-[0px_0px_0px_13px_#3b71ca] checked:focus:before:transition-[box-shadow_0.2s,transform_0.2s] checked:focus:after:ml-[0.25rem] checked:focus:after:-mt-px checked:focus:after:h-[0.8125rem] checked:focus:after:w-[0.375rem] checked:focus:after:rotate-45 checked:focus:after:rounded-none checked:focus:after:border-[0.125rem] checked:focus:after:border-t-0 checked:focus:after:border-l-0 checked:focus:after:border-solid checked:focus:after:border-white checked:focus:after:bg-transparent"
+                type="checkbox" value="" id="exampleCheck10" />
+              <label class="inline-block pl-[0.15rem] hover:cursor-pointer" for="exampleCheck10">
+                Send me a copy of this message
+              </label>
+            </div>
+            <button type="submit"
+              class="w-full rounded bg-primary px-6 py-2.5 text-xs font-medium uppercase leading-tight text-white shadow-md transition duration-150 ease-in-out hover:bg-primary-700 hover:shadow-lg focus:bg-primary-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-800 active:shadow-lg"
+              data-te-ripple-init data-te-ripple-color="light">
+              Send
+            </button>
+          </form>
+        </div>
+
+      </div>
+      <div class="flex flex-col">
+        <span>Upload File</span>
+
+        <div class="flex items-center justify-center w-full">
+          <label for="dropzone-file"
+            class="flex flex-col items-center justify-center w-full h-64 border-2 border-gray-300 border-dashed rounded-lg cursor-pointer bg-gray-50 dark:hover:bg-bray-800 dark:bg-gray-700 hover:bg-gray-100 dark:border-gray-600 dark:hover:border-gray-500 dark:hover:bg-gray-600">
+            <div class="flex flex-col items-center justify-center pt-5 pb-6">
+              <svg aria-hidden="true" class="w-10 h-10 mb-3 text-gray-400" fill="none" stroke="currentColor"
+                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path>
+              </svg>
+              <p class="mb-2 text-sm text-gray-500 dark:text-gray-400"><span class="font-semibold">Click to
+                  upload</span> or drag and drop</p>
+              <p class="text-xs text-gray-500 dark:text-gray-400">SVG, PNG, JPG or GIF (MAX. 800x400px)</p>
+            </div>
+            <input id="dropzone-file" type="file" class="hidden" />
+          </label>
+        </div>
+
+
+      </div>
+
+    </div>
+
+
+  </div>
+
+  <!--------------------########################### FAQ #######################--------->
+  <div class="relative" id="row11">
+    <div class="text-center">
+      <span class="">FAQ</span>
+    </div>
+    <div >
+      <p class="mb-4 space-y-1 md:space-x-1 md:space-y-0">
+        
+        <button
+          class="inline-block rounded bg-primary px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)]"
+          type="button"
+          data-te-collapse-init
+          data-te-ripple-init
+          data-te-ripple-color="light"
+          data-te-target="#collapseExample"
+          aria-expanded="false"
+          aria-controls="collapseExample">
+          Button with data-te-target
+        </button>
+      </p>
+      <div class="!visible hidden" id="collapseExample" data-te-collapse-item>
+        <div
+          class="block rounded-lg bg-white p-6 shadow-lg dark:bg-neutral-700 dark:text-neutral-50">
+          Some placeholder content for the collapse component. This panel is
+          hidden by default but revealed when the user activates the relevant
+          trigger.
+        </div>
+      </div>
+    </div>
+
+    <div class="relative">
+      <div class="text-center ">
+        <p class="border-2 border-rose-600 inline-block py-10 px-14">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, saepe.</p>
+        
+        
+      </div>
+      <div>
+        <button class="inline-block text-fuchsia-50  bg-slate-900" type="button"
+        data-te-collapse-init
+        data-te-ripple-init
+        data-te-ripple-color="light"
+        data-te-target="#collapseExample"
+        aria-expanded="false"
+        aria-controls="collapseExample" >click me</button>
+
+        <div class="!visible hidden" id="collapseExample" data-te-collapse-item>
+          <div id="collapseExample"
+            class="block rounded-lg bg-white p-6 shadow-lg dark:bg-neutral-700 dark:text-neutral-50 collapse">
+            Some placeholder content for the collapse component. This panel is
+            hidden by default but revealed when the user activates the relevant
+            trigger.
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+<!---------------------################## footer #################--------------->
+<footer>
+  <div>
+        <span><img class="w-6 h-6" src="./Ellipse 7.png" alt="...">    </span>
+  </div>
+</footer>
+
+</body>
+<script src="./TW-ELEMENTS-PATH/dist/js/index.min.js"></script>
+
+</html>
